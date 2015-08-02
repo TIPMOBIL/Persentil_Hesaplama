@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="YAŞ :"
+                android:id="@+id/text_yas"
+                android:layout_gravity="center|right"
+                android:gravity="center_vertical|right" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="AĞIRLIK :"
+                android:id="@+id/text_agirlik"
+                android:layout_gravity="right"
+                android:gravity="bottom|center|right" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="BOY :"
+                android:id="@+id/text_boy"
+                android:layout_gravity="right"
+                android:gravity="bottom|center|right" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="BAŞ ÇEVRESİ :"
+                android:id="@+id/text_bas_cevre"
+                android:gravity="bottom|center|right"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <NumberPicker
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/numpick_yas"
+                android:gravity="left"
+                android:orientation="horizontal" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edit_agirlik"
+                android:gravity="bottom|center" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edit_boy"
+                android:gravity="bottom|center" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edit_bas_cevresi"
+                android:text="0"
+                android:gravity="bottom|center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ERKEK"
+            android:id="@+id/btn_erkek"
+            android:gravity="center_vertical|center"
+            android:textSize="40dp"
+            android:background="@drawable/cell_shape_erkek"
+            android:layout_gravity="center_vertical"
+            android:clickable="false"
+            android:elegantTextHeight="false"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="KIZ"
+            android:id="@+id/btn_kiz"
+            android:layout_marginLeft="20dp"
+            android:textSize="40dp"
+            android:background="@drawable/cell_shape_kiz" />
+    </LinearLayout>
+
+</LinearLayout>

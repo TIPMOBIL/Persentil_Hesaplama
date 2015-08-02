@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Persentil_Hesaplama</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_weight">weight</string>
+    <string name="title_activity_weight_erkek">weight_erkek</string>
+    <string name="title_activity_weight_kiz">weight_kiz</string>
+</resources>
