@@ -25,7 +25,7 @@ public class persentil_adapter extends FragmentStatePagerAdapter {
                 return fragment;
             }
             case 1:{
-                fragment = new persentil_fragment();
+                fragment = new kan_basinc_fragment();
                 return fragment;
             }
         }

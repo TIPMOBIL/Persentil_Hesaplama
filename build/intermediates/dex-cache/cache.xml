@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
-        jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-ed148b79a2e32691150cd675671d029625c3d8f8.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-fbd335fb3175e63178860aad7c41a51e39561779.jar" />
+    </item>
+    <item
+        jar="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-d0e6502595d7f2ccc0081ecd8417f832ac0577a5.jar" />
+    </item>
+    <item
+        jar="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-05d3d1eb5313c94540c772b0d6599345a7b68748.jar" />
     </item>
     <item
         jar="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
@@ -16,11 +30,18 @@
         <dex dex="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-f54b796687dcb916d65dc2355a9ed8bcb997b463.jar" />
     </item>
     <item
-        jar="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-fbd335fb3175e63178860aad7c41a51e39561779.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-ed148b79a2e32691150cd675671d029625c3d8f8.jar" />
+    </item>
+    <item
+        jar="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Documents\GitHub\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-64c558bbcf5ef0f59560e86e8d88546a40a268c0.jar" />
     </item>
     <item
         jar="D:\Documents\Yeni klasör\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
