@@ -53,11 +53,24 @@ public class MainActivity extends ActionBarActivity {
             public String format(int value) {
 
                 if (value * 0.25 <= 1.5) {
-                    return Double.toString(value * 0.25);
-                } else {
-                    return Double.toString((value - 7) * 0.5 + 2);
+                    double gecici = value * 0.25 * 12;
+                    int  g = (int) gecici;
+                    String gecici2 = Integer.toString(g) + " Ay";
+                    return gecici2;
                 }
+                else if (value % 2 == 0){
+                    double gecici= (value - 7) * 0.5 + 2;
+                    int  g = (int) gecici;
+                    String gecici2 = Integer.toString(g) + ",5 Yaþ";
+                    return gecici2;
+                }
+                else {
+                    double gecici = (value - 7) * 0.5 + 2;
+                    int g = (int) gecici;
+                    String gecici2 = Integer.toString(g) + " Yaþ";
+                    return gecici2;
 
+                }
             }
         });
 

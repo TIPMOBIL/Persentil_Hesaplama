@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
         android:layout_gravity="top|center_horizontal">
@@ -22,8 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_marginTop="40dp">
+            android:gravity="center_vertical|center_horizontal">
 
             <TextView
                 android:layout_width="89dp"
@@ -33,7 +32,7 @@
                 android:id="@+id/textView8"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="123dp"
+                android:layout_marginLeft="89dp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textSize="21dp" />
@@ -61,7 +60,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <TextView
-                android:layout_width="123dp"
+                android:layout_width="89dp"
                 android:layout_height="34dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ağırlık"
@@ -107,7 +106,7 @@
             android:gravity="center_vertical|center_horizontal">
 
             <TextView
-                android:layout_width="123dp"
+                android:layout_width="89dp"
                 android:layout_height="34dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Boy"
@@ -152,8 +151,8 @@
             android:gravity="center_vertical|center_horizontal">
 
             <TextView
-                android:layout_width="123dp"
-                android:layout_height="34dp"
+                android:layout_width="89dp"
+                android:layout_height="55dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Baş Çevresi"
                 android:id="@+id/textView7"
@@ -165,7 +164,7 @@
 
             <TextView
                 android:layout_width="89dp"
-                android:layout_height="34dp"
+                android:layout_height="55dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="0"
                 android:id="@+id/text_ideal_bas_cevre"
@@ -177,7 +176,7 @@
 
             <TextView
                 android:layout_width="89dp"
-                android:layout_height="34dp"
+                android:layout_height="55dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="0"
                 android:id="@+id/text_persentil_bas_cevre"
@@ -194,7 +193,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center_vertical|center_horizontal"
-            android:layout_marginTop="55dp">
+            android:layout_marginTop="34dp">
 
             <TextView
                 android:layout_width="178dp"
