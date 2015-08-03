@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
         age.setMinValue(0);
         age.setValue(2);
         age.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
-        age.setWrapSelectorWheel(true);
+        age.setWrapSelectorWheel(false);
 
         age.setFormatter(new NumberPicker.Formatter() {
             @Override
