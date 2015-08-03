@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
 
         age.setMaxValue(40);
         age.setMinValue(0);
-        age.setValue(2);
+        age.setValue(7);
         age.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
         age.setWrapSelectorWheel(false);
 
