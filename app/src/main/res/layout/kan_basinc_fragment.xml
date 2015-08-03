@@ -14,7 +14,8 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
-        android:layout_gravity="top|center_horizontal">
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="30dp">
 
         <LinearLayout
             android:orientation="horizontal"

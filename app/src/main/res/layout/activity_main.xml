@@ -109,11 +109,10 @@
             android:id="@+id/btn_erkek"
             android:gravity="center_vertical|center"
             android:textSize="40dp"
-            android:background="@drawable/cell_shape_erkek"
+            android:background="@drawable/erkek_btn"
             android:layout_gravity="center_vertical"
             android:clickable="false"
-            android:elegantTextHeight="false"
-            android:layout_marginLeft="5dp" />
+            android:elegantTextHeight="false" />
 
         <Button
             android:layout_width="150dp"
@@ -122,7 +121,7 @@
             android:id="@+id/btn_kiz"
             android:layout_marginLeft="20dp"
             android:textSize="40dp"
-            android:background="@drawable/cell_shape_kiz" />
+            android:background="@drawable/kiz_btn" />
     </LinearLayout>
 
 </LinearLayout>
