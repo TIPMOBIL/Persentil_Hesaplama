@@ -37,4 +37,7 @@ public class persentil_adapter extends FragmentStatePagerAdapter {
     public int getCount() {
         return 2;
     }
+
+
 }
+
