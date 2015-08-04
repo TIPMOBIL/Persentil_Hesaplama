@@ -89,7 +89,13 @@ public class MainActivity extends ActionBarActivity {
 
                     w = weight.getText().toString();
                     h = height.getText().toString();
-                    b = bas_cevresi.getText().toString();
+
+                    if (bas_cevresi.getText().toString().trim().length() == 0){
+                        b = "0";
+                    }
+                    else {
+                        b = bas_cevresi.getText().toString();
+                    }
 
                     a2 = age.getValue();
                     a = String.valueOf(a2);
@@ -131,7 +137,13 @@ public class MainActivity extends ActionBarActivity {
 
                     w = weight.getText().toString();
                     h = height.getText().toString();
-                    b = bas_cevresi.getText().toString();
+
+                    if (bas_cevresi.getText().toString().trim().length() == 0){
+                        b = "0";
+                    }
+                    else {
+                        b = bas_cevresi.getText().toString();
+                    }
 
                     a2 = age.getValue();
                     a = String.valueOf(a2);

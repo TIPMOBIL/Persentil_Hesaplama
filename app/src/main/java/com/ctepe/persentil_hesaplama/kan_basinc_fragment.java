@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -15,6 +16,8 @@ public class kan_basinc_fragment extends Fragment {
 
     TextView  sistolik_50, diastolik_50, sistolik_90, diastolik_90, sistolik_95, diastolik_95, sistolik_99, diastolik_99;
     TextView kb_persentil_text, sistolik_text, diastolik_text,text_50, text_90, text_95, text_99 ;
+
+    LinearLayout linear_sistolik, linear_diastolik;
 
     public kan_basinc_fragment() {
     }
@@ -34,6 +37,9 @@ public class kan_basinc_fragment extends Fragment {
         text_95 = (TextView) rootview.findViewById(R.id.textView14);
         text_99 = (TextView) rootview.findViewById(R.id.textView15);
 
+        linear_sistolik = (LinearLayout) rootview.findViewById(R.id.linear_sistolik);
+        linear_diastolik = (LinearLayout) rootview.findViewById(R.id.linear_diastolik);
+
         sistolik_50 = (TextView) rootview.findViewById(R.id.text_sistolik_50);
         diastolik_50 = (TextView) rootview.findViewById(R.id.text_diastolik_50);
         sistolik_90 = (TextView) rootview.findViewById(R.id.text_sistolik_90);
@@ -46,12 +52,12 @@ public class kan_basinc_fragment extends Fragment {
         if (MainActivity.flag == "erkek") {
 
             kb_persentil_text.setBackgroundResource(R.drawable.cell_shape_erkek);
-            sistolik_text.setBackgroundResource(R.drawable.cell_shape_erkek);
-            diastolik_text.setBackgroundResource(R.drawable.cell_shape_erkek);
             text_50.setBackgroundResource(R.drawable.cell_shape_erkek);
             text_90.setBackgroundResource(R.drawable.cell_shape_erkek);
             text_95.setBackgroundResource(R.drawable.cell_shape_erkek);
             text_99.setBackgroundResource(R.drawable.cell_shape_erkek);
+            linear_sistolik.setBackgroundResource(R.drawable.cell_shape_erkek);
+            linear_diastolik.setBackgroundResource(R.drawable.cell_shape_erkek);
 
             sistolik_50.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
             diastolik_50.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
@@ -75,12 +81,12 @@ public class kan_basinc_fragment extends Fragment {
         else {
 
             kb_persentil_text.setBackgroundResource(R.drawable.cell_shape_kiz);
-            sistolik_text.setBackgroundResource(R.drawable.cell_shape_kiz);
-            diastolik_text.setBackgroundResource(R.drawable.cell_shape_kiz);
             text_50.setBackgroundResource(R.drawable.cell_shape_kiz);
             text_90.setBackgroundResource(R.drawable.cell_shape_kiz);
             text_95.setBackgroundResource(R.drawable.cell_shape_kiz);
             text_99.setBackgroundResource(R.drawable.cell_shape_kiz);
+            linear_sistolik.setBackgroundResource(R.drawable.cell_shape_kiz);
+            linear_diastolik.setBackgroundResource(R.drawable.cell_shape_kiz);
 
             sistolik_50.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
             diastolik_50.setBackgroundResource(R.drawable.cell_shape_ic_kiz);

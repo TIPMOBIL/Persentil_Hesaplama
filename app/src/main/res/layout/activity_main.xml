@@ -90,9 +90,39 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/edit_bas_cevresi"
-                android:text="0"
                 android:gravity="bottom|center" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="kg"
+                android:id="@+id/textView"
+                android:layout_marginTop="100dp"
+                android:gravity="left|bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="cm"
+                android:id="@+id/textView19"
+                android:gravity="left|bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="cm"
+                android:id="@+id/textView20"
+                android:gravity="left|bottom" />
         </LinearLayout>
     </LinearLayout>
 

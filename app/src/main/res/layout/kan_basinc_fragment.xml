@@ -35,30 +35,63 @@
                 android:textSize="21dp"
                 android:gravity="center" />
 
-            <TextView
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="89dp"
                 android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Sistolik mm/Hg"
-                android:id="@+id/textView16"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:gravity="center"
-                android:textSize="21dp" />
+                android:id="@+id/linear_sistolik">
 
-            <TextView
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sistolik"
+                    android:id="@+id/textView16"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="bottom|center"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="mm/Hg"
+                    android:id="@+id/textView21"
+                    android:gravity="top|center"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="89dp"
                 android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Diastolik mm/Hg"
-                android:id="@+id/textView17"
-                android:layout_alignParentRight="false"
-                android:layout_alignParentEnd="false"
-                android:layout_alignTop="@+id/textView12"
-                android:layout_toRightOf="@+id/textView12"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="21dp" />
+                android:id="@+id/linear_diastolik">
+
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Diastolik"
+                    android:id="@+id/textView17"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignTop="@+id/textView12"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:layout_gravity="center"
+                    android:gravity="bottom|center"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="mm/Hg"
+                    android:id="@+id/textView22"
+                    android:gravity="top|center"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
