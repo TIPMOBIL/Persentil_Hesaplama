@@ -1,5 +1,6 @@
 package com.ctepe.persentil_hesaplama;
 
+import android.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -31,6 +32,8 @@ public class persentil_adapter extends FragmentStatePagerAdapter {
         }
         return null;
 
+
+
     }
 
     @Override
@@ -39,5 +42,22 @@ public class persentil_adapter extends FragmentStatePagerAdapter {
     }
 
 
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+
+        String title = new String();
+
+        switch (position){
+            case 0:{
+                return "Persentil >>";
+            }
+            case 1:{
+                return "<< Kan Basıncı";
+            }
+        }
+        return null;
+
+    }
 }
 

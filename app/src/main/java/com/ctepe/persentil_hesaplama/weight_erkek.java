@@ -5,6 +5,7 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.DrawableRes;
+import android.support.v4.view.PagerTitleStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -29,6 +30,7 @@ public class weight_erkek extends ActionBarActivity {
     public static String sistolik_50_sonuc,sistolik_90_sonuc,sistolik_95_sonuc,sistolik_99_sonuc, diastolik_50_sonuc,diastolik_90_sonuc,diastolik_95_sonuc,diastolik_99_sonuc;
 
     ViewPager pager;
+    PagerTitleStrip title;
     persentil_adapter adapter;
 
 
@@ -42,29 +44,33 @@ public class weight_erkek extends ActionBarActivity {
         pager.setAdapter(adapter);
 
         dis_layout = (LinearLayout) findViewById(R.id.dis_layout);
-        dis_layout.setBackgroundColor(Color.parseColor("#5ac6fff4"));
+        //dis_layout.setBackgroundColor(Color.parseColor("#5ac6fff4"));
 
         yas_text = (TextView) findViewById(R.id.textView1);
         agirlik_text = (TextView) findViewById(R.id.textView2);
         boy_text = (TextView) findViewById(R.id.textView3);
         bas_cevre_text = (TextView) findViewById(R.id.textView4);
+        //title = (PagerTitleStrip) findViewById(R.id.title);
 
         yas_text.setBackgroundResource(R.drawable.cell_shape_erkek);
         agirlik_text.setBackgroundResource(R.drawable.cell_shape_erkek);
         boy_text.setBackgroundResource(R.drawable.cell_shape_erkek);
         bas_cevre_text.setBackgroundResource(R.drawable.cell_shape_erkek);
+        //title.setBackgroundResource(R.drawable.cell_shape_erkek);
 
 
         yas = (TextView) findViewById(R.id.text_yas);
         agirlik = (TextView) findViewById(R.id.text_agirlik);
         boy = (TextView) findViewById(R.id.text_boy);
         bas_cevresi = (TextView) findViewById(R.id.text_bas_cev);
+        pager = (ViewPager) findViewById(R.id.pager);
 
 
         yas.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         agirlik.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         boy.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         bas_cevresi.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
+        pager.setBackgroundResource(R.drawable.cell_shape_ic_erkek_fragment);
 
 
         Intent weight_erkek_intent = getIntent();

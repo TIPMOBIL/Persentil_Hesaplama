@@ -39,7 +39,7 @@ public class weight_kiz extends ActionBarActivity {
         pager.setAdapter(adapter);
 
         dis_layout = (LinearLayout) findViewById(R.id.dis_layout);
-        dis_layout.setBackgroundColor(Color.parseColor("#50fcd9ff"));
+        //dis_layout.setBackgroundColor(Color.parseColor("#50fcd9ff"));
 
         yas_text = (TextView) findViewById(R.id.textView1);
         agirlik_text = (TextView) findViewById(R.id.textView2);
@@ -59,12 +59,14 @@ public class weight_kiz extends ActionBarActivity {
         agirlik = (TextView) findViewById(R.id.text_agirlik);
         boy = (TextView) findViewById(R.id.text_boy);
         bas_cevresi = (TextView) findViewById(R.id.text_bas_cev);
+        pager = (ViewPager) findViewById(R.id.pager);
 
 
         yas.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         agirlik.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         boy.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         bas_cevresi.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
+        pager.setBackgroundResource(R.drawable.cell_shape_ic_kiz_fragment);
 
 
         Intent weight_kiz_intent = getIntent();

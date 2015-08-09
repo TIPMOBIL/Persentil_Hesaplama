@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
         btn_erkek = (Button) findViewById(R.id.btn_erkek);
         btn_kiz = (Button) findViewById(R.id.btn_kiz);
 
-        age.setMaxValue(40);
+        age.setMaxValue(39);
         age.setMinValue(0);
         age.setValue(7);
         age.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
