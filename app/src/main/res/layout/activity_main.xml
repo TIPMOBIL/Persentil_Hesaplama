@@ -1,157 +1,179 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/text_yas"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="YAŞ :"
-                android:id="@+id/text_yas"
                 android:layout_gravity="center|right"
-                android:gravity="center_vertical|right" />
+                android:gravity="center_vertical|right"
+                android:text="YAŞ :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
+                android:id="@+id/text_agirlik"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="AĞIRLIK :"
-                android:id="@+id/text_agirlik"
                 android:layout_gravity="right"
-                android:gravity="bottom|center|right" />
+                android:gravity="bottom|center|right"
+                android:text="AĞIRLIK :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
+                android:id="@+id/text_boy"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="BOY :"
-                android:id="@+id/text_boy"
                 android:layout_gravity="right"
-                android:gravity="bottom|center|right" />
+                android:gravity="bottom|center|right"
+                android:text="BOY :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
+                android:id="@+id/text_bas_cevre"
                 android:layout_width="200dp"
                 android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="BAŞ ÇEVRESİ :"
-                android:id="@+id/text_bas_cevre"
+                android:layout_gravity="right"
                 android:gravity="bottom|center|right"
-                android:layout_gravity="right" />
+                android:text="BAŞ ÇEVRESİ :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <NumberPicker
+                android:id="@+id/numpick_yas"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/numpick_yas"
                 android:gravity="left"
                 android:orientation="horizontal" />
 
             <EditText
+                android:id="@+id/edit_agirlik"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
-                android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/edit_agirlik"
-                android:gravity="bottom|center" />
+                android:gravity="bottom|center"
+                android:inputType="numberDecimal" />
 
             <EditText
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:inputType="numberDecimal"
-                android:ems="10"
                 android:id="@+id/edit_boy"
-                android:gravity="bottom|center" />
-
-            <EditText
                 android:layout_width="100dp"
                 android:layout_height="70dp"
-                android:inputType="numberDecimal"
                 android:ems="10"
+                android:gravity="bottom|center"
+                android:inputType="numberDecimal" />
+
+            <EditText
                 android:id="@+id/edit_bas_cevresi"
-                android:gravity="bottom|center" />
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:gravity="bottom|center"
+                android:inputType="numberDecimal" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="kg"
-                android:id="@+id/textView"
                 android:layout_marginTop="100dp"
-                android:gravity="left|bottom" />
+                android:gravity="left|bottom"
+                android:text="kg"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="cm"
                 android:id="@+id/textView19"
-                android:gravity="left|bottom" />
-
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="left|bottom"
                 android:text="cm"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
                 android:id="@+id/textView20"
-                android:gravity="left|bottom" />
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:gravity="left|bottom"
+                android:text="cm"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="ERKEK"
             android:id="@+id/btn_erkek"
-            android:gravity="center_vertical|center"
-            android:textSize="40dp"
-            android:background="@drawable/erkek_btn"
-            android:layout_gravity="center_vertical"
-            android:clickable="false"
-            android:elegantTextHeight="false" />
-
-        <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="KIZ"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/erkek_btn"
+            android:clickable="false"
+            android:elegantTextHeight="false"
+            android:gravity="center_vertical|center"
+            android:text="ERKEK"
+            android:textSize="40dp" />
+
+        <Button
             android:id="@+id/btn_kiz"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:textSize="40dp"
-            android:background="@drawable/kiz_btn" />
+            android:background="@drawable/kiz_btn"
+            android:text="KIZ"
+            android:textSize="40dp" />
     </LinearLayout>
 
-</LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>

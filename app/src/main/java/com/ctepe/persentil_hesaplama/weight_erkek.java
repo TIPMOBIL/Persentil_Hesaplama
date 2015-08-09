@@ -63,14 +63,18 @@ public class weight_erkek extends ActionBarActivity {
         agirlik = (TextView) findViewById(R.id.text_agirlik);
         boy = (TextView) findViewById(R.id.text_boy);
         bas_cevresi = (TextView) findViewById(R.id.text_bas_cev);
-        pager = (ViewPager) findViewById(R.id.pager);
+
+
+        /*pager = (ViewPager) findViewById(R.id.pager);
+        pager.setBackgroundResource(R.drawable.cell_shape_ic_erkek_fragment);*/
 
 
         yas.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         agirlik.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         boy.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
         bas_cevresi.setBackgroundResource(R.drawable.cell_shape_ic_erkek);
-        pager.setBackgroundResource(R.drawable.cell_shape_ic_erkek_fragment);
+
+
 
 
         Intent weight_erkek_intent = getIntent();

@@ -2,88 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9e87ee4642711efb6b5ff38294cb57a59fc86249.jar" />
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-8ba06ed404832d30744dd7c27f746c5c5b3f9086.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-4d11e2c410086113240ff2cbecd8a3e31f734895.jar" />
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-bf24052c106a3fdb10e8445845d84c43237b9af5.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-92f4ec93ab1295cecb9bad7186db39ccc20ab1f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Koray\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-3d451ae66217bb6d717b3103bd4ec904fa0dae54.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-507d8e910849ba8ce098b97438dfc57fd771f871.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9e87ee4642711efb6b5ff38294cb57a59fc86249.jar" />
-    </item>
-    <item
-        jar="C:\Users\Koray\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="21.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f432431e596821d41bf3f9c337ff3f862ebd80cd.jar" />
-    </item>
-    <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-3d451ae66217bb6d717b3103bd4ec904fa0dae54.jar" />
-    </item>
-    <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-4d11e2c410086113240ff2cbecd8a3e31f734895.jar" />
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-7f11f2e582920c42c3b364c740d086660ff49874.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="21.0.0"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9e87ee4642711efb6b5ff38294cb57a59fc86249.jar" />
-    </item>
-    <item
-        jar="C:\Users\Koray\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f432431e596821d41bf3f9c337ff3f862ebd80cd.jar" />
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-e5a4da7befe7c985abc1e99f726d0d2ab15138db.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f432431e596821d41bf3f9c337ff3f862ebd80cd.jar" />
+        revision="22.0.0"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-bf24052c106a3fdb10e8445845d84c43237b9af5.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-4d11e2c410086113240ff2cbecd8a3e31f734895.jar" />
+        revision="22.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-92f4ec93ab1295cecb9bad7186db39ccc20ab1f0.jar" />
     </item>
     <item
-        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-3d451ae66217bb6d717b3103bd4ec904fa0dae54.jar" />
+        revision="22.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-297033989c7a5c601237b371ba941079d059a0d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Koray\AndroidStudioProjects\Persentil_Hesaplama\app\build\intermediates\pre-dexed\debug\classes-7f11f2e582920c42c3b364c740d086660ff49874.jar" />
     </item>
 
 </items>

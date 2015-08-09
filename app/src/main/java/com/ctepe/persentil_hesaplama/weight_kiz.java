@@ -1,15 +1,13 @@
 package com.ctepe.persentil_hesaplama;
 
 import android.content.Intent;
-import android.graphics.Color;
+import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import java.text.DecimalFormat;
 
 
@@ -24,6 +22,7 @@ public class weight_kiz extends ActionBarActivity {
 
     public static String weight_ideal_sonuc, weight_persentil_sonuc, height_ideal_sonuc, height_persentil_sonuc, bas_cevre_ideal_sonuc, bas_cevre_persentil_sonuc, vucut_alan_sonuc, boya_gore_agirlik_sonuc;
     public static String sistolik_50_sonuc,sistolik_90_sonuc,sistolik_95_sonuc,sistolik_99_sonuc, diastolik_50_sonuc,diastolik_90_sonuc,diastolik_95_sonuc,diastolik_99_sonuc;
+
 
 
     ViewPager pager;
@@ -59,14 +58,16 @@ public class weight_kiz extends ActionBarActivity {
         agirlik = (TextView) findViewById(R.id.text_agirlik);
         boy = (TextView) findViewById(R.id.text_boy);
         bas_cevresi = (TextView) findViewById(R.id.text_bas_cev);
-        pager = (ViewPager) findViewById(R.id.pager);
+
+        /*pager = (ViewPager) findViewById(R.id.pager);
+        pager.setBackgroundResource(R.drawable.cell_shape_ic_kiz_fragment);*/
 
 
         yas.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         agirlik.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         boy.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
         bas_cevresi.setBackgroundResource(R.drawable.cell_shape_ic_kiz);
-        pager.setBackgroundResource(R.drawable.cell_shape_ic_kiz_fragment);
+
 
 
         Intent weight_kiz_intent = getIntent();
