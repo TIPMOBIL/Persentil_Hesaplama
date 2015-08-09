@@ -30,7 +30,7 @@ public class weight_erkek extends ActionBarActivity {
     public static String sistolik_50_sonuc,sistolik_90_sonuc,sistolik_95_sonuc,sistolik_99_sonuc, diastolik_50_sonuc,diastolik_90_sonuc,diastolik_95_sonuc,diastolik_99_sonuc;
 
     ViewPager pager;
-    PagerTitleStrip title;
+    //PagerTitleStrip title;
     persentil_adapter adapter;
 
 
@@ -65,8 +65,7 @@ public class weight_erkek extends ActionBarActivity {
         bas_cevresi = (TextView) findViewById(R.id.text_bas_cev);
 
 
-        /*pager = (ViewPager) findViewById(R.id.pager);
-        pager.setBackgroundResource(R.drawable.cell_shape_ic_erkek_fragment);*/
+        //pager.setBackgroundResource(R.drawable.cell_shape_ic_erkek_fragment);*/
 
 
         yas.setBackgroundResource(R.drawable.cell_shape_ic_erkek);

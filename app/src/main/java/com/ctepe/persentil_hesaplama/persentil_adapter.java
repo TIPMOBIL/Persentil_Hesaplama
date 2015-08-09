@@ -46,7 +46,7 @@ public class persentil_adapter extends FragmentStatePagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
 
-        String title = new String();
+       // String title = new String();
 
         switch (position){
             case 0:{

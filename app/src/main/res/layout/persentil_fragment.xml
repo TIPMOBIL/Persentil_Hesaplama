@@ -258,24 +258,5 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/adView"
-        android:layout_centerHorizontal="true">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dolu"
-            android:layout_marginLeft="3dp" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bos"
-            android:layout_marginLeft="3dp" />
-    </LinearLayout>
-
 
 </RelativeLayout>
