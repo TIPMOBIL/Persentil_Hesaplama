@@ -6,5 +6,6 @@
     <string name="title_activity_weight">weight</string>
     <string name="title_activity_weight_erkek">weight_erkek</string>
     <string name="title_activity_weight_kiz">weight_kiz</string>
-    <string name="banner_ad_unit_id">ca-app-pub-4063829153261917/3048842983</string>
+    <string name="banner_ad_unit_id_main">ca-app-pub-4063829153261917/3048842983</string>
+    <string name="banner_ad_unit_id_persentil">ca-app-pub-4063829153261917/7420166985</string>
 </resources>

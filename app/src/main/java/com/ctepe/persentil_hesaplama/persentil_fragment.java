@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+
 /**
  * Created by ctepe on 2.8.2015.
  */
@@ -24,7 +25,6 @@ public class persentil_fragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootview = inflater.inflate(R.layout.persentil_fragment, container, false);
-
 
         agirlik2_text = (TextView) rootview.findViewById(R.id.textView5);
         boy2_text = (TextView) rootview.findViewById(R.id.textView6);

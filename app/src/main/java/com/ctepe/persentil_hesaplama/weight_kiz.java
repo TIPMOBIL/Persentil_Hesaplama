@@ -8,6 +8,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.text.DecimalFormat;
 
 
@@ -32,6 +36,10 @@ public class weight_kiz extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.persentil_deger);
+
+        AdView mAdView_persentil = (AdView) findViewById(R.id.adView_persentil);
+        AdRequest adRequest_persentil = new AdRequest.Builder().build();
+        mAdView_persentil.loadAd(adRequest_persentil);
 
         pager = (ViewPager) findViewById(R.id.pager);
         adapter = new persentil_adapter(getSupportFragmentManager());

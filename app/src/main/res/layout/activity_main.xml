@@ -19,7 +19,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
 
         <LinearLayout
             android:layout_width="150dp"
@@ -140,9 +141,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
 
         <Button
             android:id="@+id/btn_erkek"
@@ -167,13 +168,14 @@
     </LinearLayout>
 
     <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
+        android:id="@+id/adView_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id">
+        ads:adUnitId="@string/banner_ad_unit_id_main"
+        android:layout_alignParentTop="true">
     </com.google.android.gms.ads.AdView>
 
     </RelativeLayout>
